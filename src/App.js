@@ -2,19 +2,27 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './Header'
 import Posts from './Posts'
+import ListOfButtons from './ListOfButtons';
+
 function App() {
 
   
   return (
     <div className='page'>
-
       <Header/>   
-      <Posts/>
-      <Posts/>
-      <Posts/>
-      <Posts/>
-      <Posts/>
-      
+      <div className='flexing-body'>
+        <div className='posts-list'>
+
+          <Posts/>
+          <Posts/>
+          <Posts/>
+          <Posts/>
+          <Posts/>
+        </div>
+
+      <ListOfButtons/>
+      </div>
+
     </div>
 
   );

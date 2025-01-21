@@ -1,0 +1,12 @@
+.list-buttons-border{
+    display: flex;
+    width:200px;
+    height: fit-content;
+    margin-top:20px;
+    margin-left: 20px;
+    padding: 20px;
+    border: 5px solid green;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
