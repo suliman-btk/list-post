@@ -1,7 +1,11 @@
 import './Button.css'
-function Buttons(){
+function Buttons({children}){
+
+    console.log(children)
     return(
-        <button>nothing</button>
+        <button>{children}</button>      
     )
 }
 export default Buttons;
+
+

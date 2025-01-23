@@ -1,11 +1,10 @@
 import './Posts.css'
-
-function Posts(){
+function Posts({title,children}){
     return (
         <div className="border">
-            <h1 className='post-title'>This is the post tilte</h1>
+            <h1 className='post-title'>{title}</h1>
             <hr/>
-            <p className='post-body'> this is my frist project of react</p>
+            {children}
         </div>
     )
 }
